@@ -18,12 +18,16 @@ The script will spin up a monitoring environment which will include the followin
 ## How to use:
 
 file monitor.py should be executed with the following attributes:
-`--help : see help instructions
+```
+--help : see help instructions
 --pversion : set Prometheus version
 --pretention : set retention in hours
---gversion : set Grafana version`
+--gversion : set Grafana version
+```
 
 Example execution command:
-`./monitor.py --pversion 2.16.0 --pretention 180 --gversion 6.6.2`
+```
+./monitor.py --pversion 2.16.0 --pretention 180 --gversion 6.6.2
+```
 
 The scraped metrics are of Prometheus itself, scraping system metrics require node-exporter (not included here).
