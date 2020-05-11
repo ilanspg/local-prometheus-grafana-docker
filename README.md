@@ -1,4 +1,4 @@
-# DevOps Test
+# Local Prometheus + Grafana based on Docker
 
 Python script that accepts the following 3 parameters:
 
